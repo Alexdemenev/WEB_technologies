@@ -1,0 +1,63 @@
+<html>
+<head>
+    
+    <title>Опрос</title>
+<link href="styleNAVIGATION.css" rel="stylesheet"></head>
+<body>
+<table border=3> <tr> <td><h3>Оцените качество нашего сайта</h3>
+<form  action="http://bim.nn2000.info/cgi-bin/f_submission.pl"   target='_self' method='get'>
+
+    <p>
+    Фамилия: <input type="Text" name="last_name" value="Петров"   size=8 >
+    Имя: <input type="Text"  name="first_name" value="Петр"    size=10 >
+    </p>
+    <p> Ваши пожелания <input type="Text"  name="question" size=8>
+    </p>
+    
+    <p> Укажите Ваш e-mail, чтобы быть в курсе всех событий <input type="Text"  name="e-mail" size=8>
+    </p>
+     <p>Оцените качество полученной информации: 
+        <input type="Radio" name="place1" value="1">1
+        <input type="Radio" name="place1" value="2">2
+        <input type="Radio" name="place1" value="3">3
+        <input type="Radio" name="place1" value="4">4
+        <input type="Radio" name="place1" value="5">5
+        </p> 
+        
+        <p>Оцените новизну полученной информации: 
+        <input type="Radio" name="place2" value="1">1
+        <input type="Radio" name="place2" value="2">2
+        <input type="Radio" name="place2" value="3">3
+        <input type="Radio" name="place2" value="4">4
+        <input type="Radio" name="place2" value="5">5
+        </p>
+<p>Оцените дизайн сайта: 
+        <input type="Radio" name="place3" value="1">1
+        <input type="Radio" name="place3" value="2">2
+        <input type="Radio" name="place3" value="3">3
+        <input type="Radio" name="place3" value="4">4
+        <input type="Radio" name="place3" value="5">5
+        </p>         
+        
+    
+    <p> Каким спортом вы увлекаетесь? <select name="kind sport">
+    <OPTION name="basket">Баскетбол</OPTION>
+    <OPTION name="voleyb">Волейбол  </OPTION>
+    <OPTION name="athletics">Легкая атлетика</OPTION>
+    <OPTION name="fitnes">Фитнес</OPTION>
+    <OPTION name="other">Другое (указать ниже)</OPTION>
+    </select> </p>
+    
+    <p> Комментарии: 
+        <br><TEXTAREA name="comments" rows=2 cols=30>Ваши спортивные увлечения </TEXTAREA>
+        </p>
+    
+    <p><input type="Hidden" name="file_name" value="результаты_опроса.txt" ></p>
+    <p>
+        <input type="Reset"  name="Reset" value="Обновить">
+        <input type="Submit" name="submit" value="Отправить"></p>
+        <p><p><p><p align="right"><a href="http://bim.nn2000.info/public_html/010_html/050_forms/results/результаты_опроса.txt" target="_new"> <font size=3> Результаты опроса </font></a></p></p></p></p>
+</td></tr>
+</table>
+
+</html>

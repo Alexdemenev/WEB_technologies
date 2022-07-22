@@ -1,0 +1,38 @@
+body{
+    background-image: url(https://knep.ru/images/load/shnurki-60.jpg);
+}
+table{
+    background-color: yellow;
+    color: black;
+    font-family: cursive;
+    border: 5px solid black;
+}
+
+a:hover {
+    text-decoration: none; 
+    color: #fff;  
+    background: #e24486;
+    
+   }
+   a{
+   color: black;
+   font-size: 300%;}
+   
+   a:visited{
+       color: green;
+   }
+   
+   a:active{
+       color: red;
+   }
+   
+   #b {
+       font-size: 100%;
+   }
+   
+   #c {
+       background-image: url(https://cdn.wallpapersafari.com/58/42/e80ucD.jpg);
+   }
+   
+      
+   

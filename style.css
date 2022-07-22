@@ -1,0 +1,25 @@
+*{
+    color: red;
+    
+}
+
+p{
+    color: green;
+    font-size: 20px;
+}
+
+
+
+.lyuboenazvanie {
+    
+    font: bold 150% serif;
+    color: blue;
+    background-color: yellow;
+}
+
+#subtitle {
+    font: italic 100% serif;
+    color: brown;
+    background-color: grey;
+}
+    
